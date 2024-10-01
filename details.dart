@@ -107,7 +107,7 @@ class _ItemsDetailsState extends State<ItemsDetails> {
                 // الإجراء عند الضغط على الزر
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.orange, // لون الزر
+                backgroundColor: Colors.orange, 
                 padding: EdgeInsets.symmetric(vertical: 15.0),
               ),
               child: Text('Add to Cart'),
