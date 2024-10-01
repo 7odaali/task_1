@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'details.dart';
 class Homepage extends StatefulWidget {
   const Homepage(
-      {super.key}); // It's good practice to mark constructors as const if possible
+      {super.key});
 
   @override
   State<Homepage> createState() => _MyHomePageState();
@@ -19,7 +19,7 @@ class _MyHomePageState extends State<Homepage> {
       BottomNavigationBarItem(icon: Icon(Icons.person_2_outlined),label: ''),
     ]),
       body: Container(
-        padding: const EdgeInsets.all(20), // Marking padding as const
+        padding: const EdgeInsets.all(20), 
         child: ListView(
           children: [
             Row(
